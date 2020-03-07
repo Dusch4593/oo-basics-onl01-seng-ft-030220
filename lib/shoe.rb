@@ -8,6 +8,6 @@ class Shoe
   end
   
   def cobble 
-    puts "Your shoe is as good as new!"
+    condition == "new"  ? "Your shoe is as good as new!" : "Your shoe is as good as old!"
   end
 end
